@@ -119,12 +119,9 @@ object ProblemGenerator {
 
   def readStudents(file: String): Option[List[String]] = {
     try {
-      // Get a list of Spire IDs from the given file:
-      val ids = Source.fromFile(file)
-        .getLines             // First, get the lines in the file
-        .drop(1)              // Drop the first header line
-        .map(_.split(",")(2)) // Split each line and grab the 2nd entry
-      // return the ids in an Option:
+      val ids =
+        Source.fromFile(file)
+          .getLines
       Some(ids.toList)
     }
     catch {
