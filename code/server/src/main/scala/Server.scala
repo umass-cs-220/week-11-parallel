@@ -9,7 +9,7 @@ import scala.concurrent._
 import ExecutionContext.Implicits.global
 
 /**
- * The HW7 Server object.
+ * The 230 Server object.
  */
 object Server {
 
@@ -177,7 +177,7 @@ object Server {
     val port = args(0).toInt
 
     val server = new ServerSocket(port)
-    println(s"HW7 Server Up ($port)")
+    println(s"230 Server Up ($port)")
     while (true) {
       val sock = server.accept
       // Create a future for handling the connection. We do not care
