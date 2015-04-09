@@ -31,7 +31,7 @@ implementing concurrent and distributed systems, namely, Akka.
 * [The Actor Approach to Concurrency](http://danielwestheide.com/blog/2013/02/27/the-neophytes-guide-to-scala-part-14-the-actor-approach-to-concurrency.html)
 * [Getting Started with Actor Based Programming Using Scala and Akka](http://www.reactive.io/tips/2014/03/28/getting-started-with-actor-based-programming-using-scala-and-akka/)
 
-[deprecated]:(http://stackoverflow.com/questions/14604264/why-is-scala-actors-deprecated-in-2-10)
+[deprecated]: http://stackoverflow.com/questions/14604264/why-is-scala-actors-deprecated-in-2-10
 
 ## Resources
 
