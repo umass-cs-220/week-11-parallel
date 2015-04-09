@@ -25,10 +25,13 @@ implementing concurrent and distributed systems, namely, Akka.
 ## Readings
 
 * Chapter 32, Odersky (Only the first few sections as this library is
-  now deprecated)
+  now [deprecated])
 * [Welcome to the Future](http://danielwestheide.com/blog/2013/01/09/the-neophytes-guide-to-scala-part-8-welcome-to-the-future.html)
 * [Promises and Futures in Practice](http://danielwestheide.com/blog/2013/01/09/the-neophytes-guide-to-scala-part-8-welcome-to-the-future.html)
 * [The Actor Approach to Concurrency](http://danielwestheide.com/blog/2013/02/27/the-neophytes-guide-to-scala-part-14-the-actor-approach-to-concurrency.html)
+* [Getting Started with Actor Based Programming Using Scala and Akka](http://www.reactive.io/tips/2014/03/28/getting-started-with-actor-based-programming-using-scala-and-akka/)
+
+[deprecated](http://stackoverflow.com/questions/14604264/why-is-scala-actors-deprecated-in-2-10)
 
 ## Resources
 
