@@ -6,13 +6,13 @@ import akka.actor.ActorLogging
 class BarTender extends Actor with ActorLogging {
   // The total number of pints served:
   var total = 0
-  
+
   def receive = {
     case Ticket(quantity) =>
       total = total + quantity
-      
+
       log.info(s"I'll get $quantity pints for sender [${sender.path}]")
-      
+
       // Serve up the pints:
       for (number <- 1 to quantity) {
         log.info(s"Pint $number is coming up for [${sender.path}]")
@@ -20,7 +20,7 @@ class BarTender extends Actor with ActorLogging {
         log.info(s"Pint $number is ready for [${sender.path}]")
         sender ! FullPint(number)
       }
-      
+
     case EmptyPint(number) =>
       total match {
         case 1 =>

@@ -134,6 +134,7 @@ object Coffee02 {
       case Success(ground) => println(s"got my $ground")
       case Failure(exc)    => println(s"we got a problem: ${exc.getMessage}")
     }
+    println("When did we get here?")
   }
 
   // You can also compose futures in a functional way. In this example
